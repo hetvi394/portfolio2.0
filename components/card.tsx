@@ -9,40 +9,24 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        title: "TicTacToe",
-        description:
-            "A technology company that builds economic infrastructure for the internet.",
-        link: "https://stripe.com",
+        title: "ToDoApp",
+        description: "A simple and efficient task management app to organize daily activities.",
+        link: "https://github.com/hetvi394/ToDoApp",
     },
     {
-        title: "Netflix",
-        description:
-        "A technology company that builds economic infrastructure for the internet.",
-        link: "https://netflix.com",
+        title: "Tic-Tac-Toe",
+        description: "A fun and interactive Tic-Tac-Toe game built with React.js.",
+        link: "https://tic-tac-toe394.netlify.app/",
     },
     {
-        title: "Google",
-        description:
-        "A technology company that builds economic infrastructure for the internet.",
-        link: "https://google.com",
+        title: "QR Code Generator",
+        description: "A tool to generate custom QR codes for links and text easily.",
+        link: "https://or-code-generator.netlify.app/",
     },
     {
-        title: "Meta",
-        description:
-        "A technology company that builds economic infrastructure for the internet.",
-        link: "https://meta.com",
+        title: "Dictionary Website",
+        description: "A web-based dictionary to search for word meanings and definitions.",
+        link: "https://thedictionary-website.netlify.app/",
     },
-    {
-        title: "Amazon",
-        description:
-        "A technology company that builds economic infrastructure for the internet.",
-        link: "https://amazon.com",
-    },
-    {
-        title: "Microsoft",
-        description:
-        "A technology company that builds economic infrastructure for the internet.",
-        link: "https://microsoft.com",
-    },
-    
 ];
+

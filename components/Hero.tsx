@@ -1,9 +1,9 @@
-import React from 'react';
-import { Spotlight } from './ui/Spotlight';
-import { TextGenerateEffect } from './ui/TextGenerateEffect';
-import Image from 'next/image';
-import { CardContainer, CardItem } from '../components/ui/3d-card';
-import MagicButton from './ui/MagicButton';
+import React from "react";
+import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Image from "next/image";
+import { CardContainer, CardItem } from "../components/ui/3d-card";
+import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { CiLinkedin, CiInstagram } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -21,10 +21,7 @@ const Hero = () => {
           className="top-10 left-full h-[80vh] w-[50vw]"
           fill="purple"
         />
-        <Spotlight
-          className="top-28 left-80 h-[80vh] w-[50vw]"
-          fill="blue"
-        />
+        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
       {/* Overlay */}
       <div className="absolute top-0 left-0 h-full w-screen flex items-center justify-center dark:bg-black-100 bg-white dark:bg-grid-white/[0.06] bg-grid-black/[0.2]">
@@ -36,22 +33,30 @@ const Hero = () => {
             />
 
             <p className="text-lg md:text-xl lg:text-2xl text-gray-800 dark:text-gray-200">
-
               Discover the Beauty of My Designs
             </p>
 
-            <a href="/hetvi%20shah.pdf" download="hetvi shah.pdf">
+            {/* <a href="/hetvi%20shah.pdf" download="hetvi shah.pdf">
               <MagicButton
                 title="Download CV"
                 icon={<FaLocationArrow />}
-                position="right" />
-            </a>
+                position="right"
+              />
+            </a> */}
 
             <div className="flex space-x-4">
-              <a href="https://github.com/hetvi394" target='_black' className="  text-white">
+              <a
+                href="https://www.linkedin.com/in/shah-hetvi-a4887b233/"
+                target="_black"
+                className="  text-white"
+              >
                 <CiLinkedin className="text-4xl" />
               </a>
-              <a href="https://github.com/hetvi394" target='_black' className="  text-white ">
+              <a
+                href="https://github.com/hetvi394"
+                target="_black"
+                className="  text-white "
+              >
                 <FaGithub className="text-4xl" />
               </a>
             </div>

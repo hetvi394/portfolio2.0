@@ -13,7 +13,8 @@ export function TabsDemo() {
         <div id="about" className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white  bg-violet-900 select-none">
           <p className="text-xl md:text-4xl">AboutMe</p>
           <p className="text-sm mt-4 md:text-base font-sans text-purple">
-            Hey, I'm Hetvi Shah. I'm a passionate frontend developer with a focus on responsive design and user-friendly interfaces. Proficient in frameworks like React.js, I strive for continuous improvement and am currently learning the MERN stack to broaden my skills in full-stack development. My projects reflect my expertise in React.js, Tailwind CSS, and other technologies. Additionally, as a skilled UI designer with experience in Figma, I bring a keen eye for design to all my work. As I deepen my knowledge in backend development with Node.js, Express.js, and MongoDB, I aim to become a well-rounded developer.
+          I'm Hetvi Shah, a frontend developer with a passion for crafting sleek, responsive, and user-friendly web applications. With expertise in React.js, Tailwind CSS, and modern UI/UX principles, I transform designs into interactive digital experiences.
+           Beyond frontend, I have hands-on experience in backend development using Node.js, Express, and MongoDB, allowing me to build and manage APIs efficiently. My journey into full-stack development is ongoing as I continuously explore new technologies and best practices to enhance performance and scalability.
           </p>
           {/* <DummyContent /> */}
         </div>
@@ -24,7 +25,7 @@ export function TabsDemo() {
       value: "services",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black  bg-white-100">
-          <p className="text-xl md:text-4xl">Skill</p>
+          <p className="text-xl md:text-4xl">Skills</p>
           <div className="text-sm  mt-4 md:text-base flex flex-wrap justify-center gap-2">
             {[
               "HTML",
